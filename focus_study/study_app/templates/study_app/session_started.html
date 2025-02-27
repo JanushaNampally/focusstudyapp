@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Study Session Started</title>
+    </head>
+    <body>
+        <h1>Study Session Started</h1>
+        <p>Course: {{  session.course  }}</p>
+        <p>Motivation: {{ session.motivation  }}</p>
+        <p>Start Time: {{  session.start_time  }}</p>
+        <p>Completed: {% if session.completed %} Yes {% else %} No {% endif %}</p>
+    </body>
+    </html>
+    
